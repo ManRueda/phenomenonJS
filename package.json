@@ -1,0 +1,37 @@
+{
+  "name": "phenomenon-js",
+  "version": "0.0.1",
+  "description": "Event handler component",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManRueda/phenomenonJS.git"
+  },
+  "keywords": [
+    "event",
+    "js"
+  ],
+  "author": "Manuel Rueda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManRueda/phenomenonJS/issues"
+  },
+  "homepage": "https://github.com/ManRueda/phenomenonJS#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-coverage": "^0.3.1",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-requirejs": "^0.2.2",
+    "plato": "^1.4.0",
+    "requirejs": "^2.1.17"
+  }
+}

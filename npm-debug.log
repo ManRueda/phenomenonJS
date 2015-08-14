@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/manrueda/.nvm/versions/node/v0.12.6/bin/node',
+1 verbose cli   '/home/manrueda/.nvm/versions/node/v0.12.6/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'cov' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose run-script [ 'precov', 'cov', 'postcov' ]
+5 info precov phenomenon-js@0.0.1
+6 info cov phenomenon-js@0.0.1
+7 verbose unsafe-perm in lifecycle true
+8 info phenomenon-js@0.0.1 Failed to exec cov script
+9 verbose stack Error: phenomenon-js@0.0.1 cov: `istanbul cover node_modules/.bin/tape --report lcovonly test/*.js && coveralls < ./coverage/lcov.info`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (/home/manrueda/.nvm/versions/node/v0.12.6/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+9 verbose stack     at EventEmitter.emit (events.js:110:17)
+9 verbose stack     at ChildProcess.<anonymous> (/home/manrueda/.nvm/versions/node/v0.12.6/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid phenomenon-js@0.0.1
+11 verbose cwd /home/manrueda/dev/phenomenonJS
+12 error Linux 3.19.0-25-generic
+13 error argv "/home/manrueda/.nvm/versions/node/v0.12.6/bin/node" "/home/manrueda/.nvm/versions/node/v0.12.6/bin/npm" "run" "cov"
+14 error node v0.12.6
+15 error npm  v2.11.2
+16 error code ELIFECYCLE
+17 error phenomenon-js@0.0.1 cov: `istanbul cover node_modules/.bin/tape --report lcovonly test/*.js && coveralls < ./coverage/lcov.info`
+17 error Exit status 1
+18 error Failed at the phenomenon-js@0.0.1 cov script 'istanbul cover node_modules/.bin/tape --report lcovonly test/*.js && coveralls < ./coverage/lcov.info'.
+18 error This is most likely a problem with the phenomenon-js package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     istanbul cover node_modules/.bin/tape --report lcovonly test/*.js && coveralls < ./coverage/lcov.info
+18 error You can get their info via:
+18 error     npm owner ls phenomenon-js
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

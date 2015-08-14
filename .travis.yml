@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.12'
+env:
+
+script:
+  - npm install
+  - grunt jshint
+  - npm test
+  - npm run cov
+before_script:
+  - npm install grunt-cli -g

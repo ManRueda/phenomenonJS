@@ -1,0 +1,31 @@
+{
+  "name": "phenomenon-js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/ManRueda/phenomenonJS",
+  "authors": [
+    "Manuel Rueda <manuel.rueda.un@gmail.com>"
+  ],
+  "description": "Event handler component",
+  "main": "dist/phenomenonJS.min.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "events",
+    "handler",
+    "on",
+    "one",
+    "off",
+    "emit",
+    "trigger"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

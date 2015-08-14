@@ -2,5 +2,6 @@
 
 Lightweight event framework
 
+* Support Bower
 * Support jQuery and NodeJS syntax
 * Support RequireJS and Globals

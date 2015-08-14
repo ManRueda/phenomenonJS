@@ -9,4 +9,4 @@ script:
   - npm test
   - npm run cov
 before_script:
-  - npm install grunt-cli -g
+  - npm install grunt-cli istanbul -g

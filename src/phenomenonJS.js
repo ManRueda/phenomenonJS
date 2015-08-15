@@ -14,6 +14,7 @@
 }(this, function () {
   function phenomenonJS(){
   	this.defaultMaxListeners = 10;
+    this._events = {};
 
   	this.on = this.addListener = function(type, listener){
   		if (typeof listener !== 'function'){

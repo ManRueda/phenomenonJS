@@ -1,6 +1,6 @@
 {
   "name": "phenomenon-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Event handler component",
   "main": "src/phenomenonJS.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "tape test/tape.*.js",
-    "cov": "istanbul cover node_modules/.bin/tape --report lcovonly test/*.js && coveralls < ./coverage/lcov.info"
+    "cov": "istanbul cover node_modules/.bin/tape --report lcovonly test/tape.*.js && coveralls < ./coverage/lcov.info"
   },
   "repository": {
     "type": "git",

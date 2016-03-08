@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/ManRueda/phenomenonJS#readme",
   "devDependencies": {
-    "coveralls": "2.11.6",
+    "coveralls": "2.11.8",
     "grunt": "0.4.5",
-    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-jshint": "1.0.0",
     "grunt-contrib-uglify": "1.0.0",
     "plato": "1.5.0"
   },
   "dependencies": {
-    "tape": "4.3.0"
+    "tape": "4.5.1"
   }
 }
